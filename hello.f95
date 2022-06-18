@@ -3,5 +3,5 @@
 ! Compile: gfortran hello.f95 -o hello
 ! Run: ./hello
 program hello
-print *, "hello"
+  print *, "hello"
 end program hello

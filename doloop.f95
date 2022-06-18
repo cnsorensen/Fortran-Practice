@@ -6,9 +6,11 @@
 ! Run: ./doloop
 program loopme
 implicit none
+
 integer :: x
 real :: y
 do x=-10,10,1
-	print *, 1.0/x
+  print *, 1.0/x
 end do
+
 end program loopme

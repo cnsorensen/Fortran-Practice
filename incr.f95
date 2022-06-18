@@ -5,12 +5,14 @@
 ! Run: ./incr
 program incr
 implicit none
+
 integer :: i
 real :: x
+
 x = 1.0
 do i=1,10
-!	x = 1.0
-	x = x + 1.0
-	print *, i,x
+!  x = 1.0
+  x = x + 1.0
+  print *, i,x
 end do
 end program incr
